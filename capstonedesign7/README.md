@@ -13,17 +13,15 @@ Install tools on Ubuntu
       relogin
       nvm install 7.8.0
       nvm use 7.8.0
-      nvm alias default node
-      
-      or following manual : http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/#node-version-manager
+      nvm alias default node  
+      following manual : http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/#node-version-manager
   (2) Install express framework
       mkdir myapp
       cd myapp
       npm init
       npm install express --save
-      npm install express
-      
-      or following manual : https://expressjs.com/en/starter/installing.html
+      npm install express     
+      following manual : https://expressjs.com/en/starter/installing.html
   (3) Install mysql
       sudo apt-get update
       sudo apt-get install mysql-server
