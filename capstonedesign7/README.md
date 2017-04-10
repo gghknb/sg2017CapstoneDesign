@@ -1,11 +1,14 @@
-/* Please show on raw */
+
 Introduction
+
 This project measure temperatures by temperature sensor and arduino send temperature datas to 
+
 my web server with http call and thing speak. 
+
 I can read temperatures by thing speak channel and web server([Web server Ip address:3000]/dump)
 
 Install tools on Ubuntu
-  (1) Install node.js
+  ## Install node.js
       sudo apt-get install build-essential checkinstall  
       sudo apt-get install libssl-dev
       sudo apt-get install curl
@@ -15,20 +18,20 @@ Install tools on Ubuntu
       nvm use 7.8.0
       nvm alias default node  
       following manual : http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/#node-version-manager
-  (2) Install express framework
+  ## Install express framework
       mkdir myapp
       cd myapp
       npm init
       npm install express --save
       npm install express     
       following manual : https://expressjs.com/en/starter/installing.html
-  (3) Install mysql
+  ## Install mysql
       sudo apt-get update
       sudo apt-get install mysql-server
       sudo mysql_secure_installation
       sudo mysql_install_db
       mysql --version
-  (4) Make sensor table
+  ## Make sensor table
       mysql -u root -p       //login mysql
       create database data;
       use data;
