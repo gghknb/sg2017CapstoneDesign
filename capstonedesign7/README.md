@@ -50,11 +50,16 @@ Install tools on Ubuntu
         SET PASSWORD FOR 'sensor'@'localhost' = PASSWORD('mypassword');     // setting your password to 'mypassword'
 
 Execute
+
 Upload capstonedesign7.ino to your nodemcu using Arduino sketch.
+
 Type following command in your ubuntu server.
   node cap7.js 
+
 If console print Done insert then this temperature data send to your web server successly.
+
 If you refresh your web server then print 'dump complete' on your Ubuntu console.
+
 Type fllowing command in your ubuntu server then you can see your temperature data
   tail -f   LOG.txt   
 
