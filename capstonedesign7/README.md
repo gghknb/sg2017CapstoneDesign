@@ -56,3 +56,6 @@ If console print Done insert then this temperature data send to your web server 
 If you refresh your web server then print 'dump complete' on your Ubuntu console.
 Type fllowing command in your ubuntu server then you can see your temperature data
   tail -f   LOG.txt   
+
+
+Youtube : https://youtu.be/sxUaWUVr1k0
