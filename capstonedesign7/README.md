@@ -5,7 +5,7 @@
 
 2. Install tools on Ubuntu
   (1) Install node.js
-      sudo apt-get install build-essential checkinstall
+      sudo apt-get install build-essential checkinstall  
       sudo apt-get install libssl-dev
       sudo apt-get install curl
       curl -o- https://raw.githubusercontent.com/crea…/…/v0.31.0/install.sh | bash
