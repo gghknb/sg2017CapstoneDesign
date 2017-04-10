@@ -1,7 +1,9 @@
 1. Introduction
 
 This project measure temperatures by temperature sensor and arduino send temperature dats to 
+
 my web server with http call and thing speak. 
+
 I can read temperatures by thing speak channel and web server([Web server Ip address:3000]/dump)
 
 2. Install tools on Ubuntu
