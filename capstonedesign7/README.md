@@ -1,12 +1,9 @@
-1. Introduction
-
-This project measure temperatures by temperature sensor and arduino send temperature dats to 
-
+Introduction
+This project measure temperatures by temperature sensor and arduino send temperature datas to 
 my web server with http call and thing speak. 
-
 I can read temperatures by thing speak channel and web server([Web server Ip address:3000]/dump)
 
-2. Install tools on Ubuntu
+Install tools on Ubuntu
   (1) Install node.js
       sudo apt-get install build-essential checkinstall  
       sudo apt-get install libssl-dev
@@ -50,7 +47,7 @@ I can read temperatures by thing speak channel and web server([Web server Ip add
         FLUSH PRIVILEGES;
         SET PASSWORD FOR 'sensor'@'localhost' = PASSWORD('mypassword');     // setting your password to 'mypassword'
 
-3. Execute
+Execute
 Upload capstonedesign7.ino to your nodemcu using Arduino sketch.
 Type following command in your ubuntu server.
   node cap7.js 
