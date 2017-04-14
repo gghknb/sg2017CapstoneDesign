@@ -64,4 +64,4 @@ Type fllowing command in your ubuntu server then you can see your temperature da
   tail -f   LOG.txt   
 
 
-Youtube : https://youtu.be/sxUaWUVr1k0
+# Youtube : https://youtu.be/sxUaWUVr1k0
