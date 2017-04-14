@@ -1,5 +1,5 @@
 
-Introduction
+# Introduction
 
 This project measure temperatures by temperature sensor and arduino send temperature datas to 
 
@@ -49,7 +49,7 @@ Install tools on Ubuntu
         FLUSH PRIVILEGES;
         SET PASSWORD FOR 'sensor'@'localhost' = PASSWORD('mypassword');     // setting your password to 'mypassword'
 
-Execute
+# Execute
 
 Upload capstonedesign7.ino to your nodemcu using Arduino sketch.
 
