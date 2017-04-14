@@ -7,7 +7,7 @@ my web server with http call and thing speak.
 
 I can read temperatures by thing speak channel and web server([Web server Ip address:3000]/dump)
 
-Install tools on Ubuntu
+# Install tools on Ubuntu
   ## Install node.js
       sudo apt-get install build-essential checkinstall  
       sudo apt-get install libssl-dev
